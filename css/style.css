@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway-Bold";
+    text-decoration: none;
+    background-color: rgb(23, 41, 65);
+}
+
+/* fonts */
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-BlackItalic";
+    src: url(../fonts/Raleway-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-BoldItalic";
+    src: url(../fonts/Raleway-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-ExtraBoldItalic";
+    src: url(../fonts/Raleway-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-ExtraLight";
+    src: url(../fonts/Raleway-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-ExtraLightItalic";
+    src: url(../fonts/Raleway-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(../fonts/Raleway-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-LightItalic";
+    src: url(../fonts/Raleway-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-MediumItalic";
+    src: url(../fonts/Raleway-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-SemiBoldItalic";
+    src: url(../fonts/Raleway-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url(../fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-ThinItalics";
+    src: url(../fonts/Raleway-ThinItalic.ttf);
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .container2 {
+        max-width: 1200px;
+    }
+}
+
+/* header section starts here */
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+.container .logodiv img {
+    margin-right: 10px;
+}
+
+.container .logodiv .logo .text1 {
+    font-size: 25px;
+    color: blanchedalmond;
+}
+
+.container .logodiv .logo .text2 {
+    font-size: 25px;
+    color: #FAB005;
+}
+
+.container .navbar a {
+    font-size: 18px;
+    color: blanchedalmond;
+    margin-left: 40px;
+    padding: 5px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.container .navbar a:hover {
+    border-bottom: 3px solid #FAB005;
+    border-width: 100%;
+    color: #FAB005;
+}
+
+.container .image {
+    width: 50px;
+    height: 50px;
+    background: #FAB005;
+    background-clip: content-box;
+    margin-left: 40px;
+    border: #fab0055c 7px solid;
+    border-radius: 100%;
+}
+
+.container .image img {
+    background: none;
+}
+
+/* header section ends here */
+
+/* hero section starts here */
+.container2 {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header.hero {
+    height: 500px;
+    overflow: hidden;
+}
+
+header.hero .container2 {
+    position: relative;
+}
+
+header.hero .container2 .html {
+    position: absolute;
+    right: 100px;
+    top: -50px;
+    z-index: 10;
+}
+
+header.hero .container2 .css {
+    position: absolute;
+    top: 25px;
+    right: 445px;
+    z-index: 10;
+}
+
+header.hero .container2 .javascript {
+    position: absolute;
+    right: 100px;
+    bottom: -40px;
+    z-index: 10;
+}
+
+header.hero .container2 h1 {
+    font-family: "Raleway-ExtraBold";
+    font-size: 3rem;
+}
+
+header.hero .container2 h1 .text10 {
+    color: #FAB005;
+}
+
+header.hero .container2 h1 .text20 {
+    font-size: 2rem;
+    color: blanchedalmond;
+}
+
+header.hero p {
+    font-family: "Raleway-Medium";
+    width: 50%;
+    line-height: 1.5rem;
+    color: rgb(182, 184, 187);
+}
+
+header.hero .mail {
+    padding: 8px 10px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    width: 300px;
+    background-color: blanchedalmond;
+}
+
+header.hero .btn {
+    background-color: #FAB005;
+    border: 2px transparent solid;
+    padding: 8px 10px;
+    border-radius: 50px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(23, 41, 65);
+    transition: all 0.3s ease;
+}
+
+header.hero .btn:hover {
+    border: 2px solid #FAB005;
+    background-color: rgb(23, 41, 65);
+    color: #FAB005;
+}
+
+header.hero .hero-image {
+    position: absolute;
+    right: 10px;
+    top: -40px;
+    width: 500px;
+    height: 500px;
+    /* background-color: #FAB005; */
+}
+
+/* header.hero .hero-image .svg {
+    background-color: #FAB005;
+    width: 500px;
+    height: 500px;
+} */
+
+header.hero .hero-image .svg .path1 {
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0 / 0.4));
+}
